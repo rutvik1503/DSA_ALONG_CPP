@@ -19,8 +19,8 @@ A simple introduction to C++ syntax and fundamental programming concepts. This p
 
 ### 📝 Files:
 
-#### **`demo.cpp`**
-A simple C++ program that prints a welcome message, demonstrating basic input/output operations using the `iostream` library. Perfect for getting comfortable with displaying information and interacting with the user.
+#### **`Desimal_Num.cpp`**
+This file contains a simple C++ program that demonstrates basic output operations using the cout stream. The program prints a blank line, the number 1, the result of the arithmetic operation 2 + 2 (which equals 4), and additional blank lines. This program is a minimal example of using cout for printing values and expressions to the console.
 
 ---
 
