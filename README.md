@@ -54,6 +54,15 @@ Dive deeper into user interaction! This program prompts the user for two integer
 
 ---
 
+## 📅 Day 05 : Some exercesize for the string data type
+
+### 📝 Files:
+
+#### **`String_Datatype.cpp`**
+This file contains a C++ program that demonstrates the use of the string data type. The program declares a variable name to store a string, takes input from the user for their name using cin, and then displays a personalized greeting message using cout. This program highlights basic string handling and user interaction in C++.
+
+---
+
 ## 💡 What You'll Learn:
 - **Basic Syntax & I/O Operations**: Understanding how C++ works and how to display/output data.
 - **Control Structures**: Mastering loops and understanding how to repeat operations efficiently.
