@@ -63,6 +63,48 @@ This file contains a C++ program that demonstrates the use of the string data ty
 
 ---
 
+## 📅 Day 08 : Some exercesize for the If Else
+
+### 📝 Files:
+
+#### **`If_Else_Task_01.cpp`**
+This C++ program determines the minimum value between two user-input integers. It prompts the user to enter two values, compares them using an if statement, and then displays the smaller value using cout. This program demonstrates basic user input handling, conditional statements, and console output in C++.
+
+#### **`If_Else_Task_02.cpp`**
+This C++ program finds the minimum value among three user-input integers. It takes input for three values, compares them using nested if statements, and displays the smallest value using cout. This program demonstrates user input handling, conditional logic, and decision-making structures in C++.
+
+#### **`If_Else_Task_03.cpp`**
+This C++ program determines the minimum value among four user-input integers. It takes input for four values, uses nested if statements to compare them, and displays the smallest value using cout. This program demonstrates user input handling, conditional logic, and multi-level decision-making in C++.
+
+#### **`If_Else_Task_04.cpp`**
+This C++ program finds the minimum value among five user-input integers. It takes input for five values, uses nested if statements to compare them, and displays the smallest value using cout. This program demonstrates user input handling, conditional logic, and multi-level decision-making in C++.
+
+---
+
+## 📅 Day 09 : Some exercesize for the Switch Case Statement
+
+### 📝 Files:
+
+#### **`Switch_Case_Task_01.cpp`**
+This C++ program demonstrates the use of a switch statement to map numerical input to corresponding weekdays. The user inputs a number (1-7), and the program displays the respective day using cout. If the input is outside this range, a default message prompts valid input. This program highlights decision-making using switch and basic user interaction in C++.
+
+#### **`Switch_Case_Task_02.cpp`**
+This C++ program performs arithmetic operations using a switch statement. The user inputs two numbers and selects an operation (addition, subtraction, multiplication, division, or modulus) from a menu. Based on the selected option, the program executes the corresponding operation and displays the result using cout. If an invalid option is chosen, an error message prompts the user to select a valid option. This program demonstrates user input handling, arithmetic operations, and decision-making using switch in C++.
+
+#### **`Ternary_Operator.cpp`**
+This C++ program demonstrates the use of the ternary operator (? :) for decision-making. The user inputs two integers, and the program determines and displays which number is greater using the ternary operator. This approach simplifies conditional statements into a single-line expression. The program highlights user input handling, conditional logic, and concise decision-making in C++.
+
+---
+
+## 📅 PROJECT DAY : Some Projects of c++
+
+### 📝 Files:
+
+#### **`Day_01_Project.cpp`**
+This C++ program demonstrates the use of nested switch statements to create a multilingual recharge menu system. The user selects a language (Gujarati, Hindi, or English) and is then given options to check available recharge plans or view active plans. If they choose to check recharge plans, another switch allows them to select a plan and confirm the recharge. The program handles invalid inputs with default messages. This example highlights user input handling, decision-making with switch, and structured program flow in C++.
+
+---
+
 ## 💡 What You'll Learn:
 - **Basic Syntax & I/O Operations**: Understanding how C++ works and how to display/output data.
 - **Control Structures**: Mastering loops and understanding how to repeat operations efficiently.
