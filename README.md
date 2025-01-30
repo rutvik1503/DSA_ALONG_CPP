@@ -105,6 +105,48 @@ This C++ program demonstrates the use of nested switch statements to create a mu
 
 ---
 
+## 📅 LAB WORK 01 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This C++ program demonstrates the use of a while loop to print numbers from 1 to 10. The loop starts with n = 1 and continues executing until n reaches 10, incrementing n in each iteration. This program highlights the use of looping constructs to perform repetitive tasks efficiently in C++.
+
+#### **`Que_02.cpp`**
+This C++ program demonstrates the use of a while loop to print numbers from 10 to 1 in descending order. The loop starts with n = 10 and decrements n in each iteration until it reaches 1. This program highlights the use of looping constructs for controlled repetition in C++.
+
+#### **`Que_03.cpp`**
+This C++ program demonstrates the use of a while loop to print numbers from 1 to N, where N is provided by the user. The loop starts from i = 1 and increments i until it reaches N. This program highlights user input handling and controlled looping for dynamic range printing in C++.
+
+#### **`Que_04.cpp`**
+This C++ program demonstrates the use of a while loop to print all odd numbers from N to 1 in descending order. The user provides a number N, and the loop checks if N is odd before printing it. The value of N is then decremented in each iteration until it reaches 1. This program highlights conditional statements and looping for filtering and displaying specific numbers.
+
+#### **`Que_05.cpp`**
+This C++ program demonstrates the use of a while loop to print all leap years between two given years. The user inputs a starting year and an ending year, and the loop iterates through each year in the range. A year is printed if it is divisible by 4, allowing the user to see all leap years within the specified period. This program effectively utilizes looping and conditional statements for filtering and displaying specific years.
+
+---
+
+## 📅 LAB WORK 02 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This C++ program demonstrates the use of a do-while loop to print numbers from 1 to 10. The loop executes at least once and then continues to iterate while the value of i is less than or equal to 10. In each iteration, the current value of i is printed, and i is incremented by 1. The program highlights the behavior of a do-while loop, where the loop body is executed before checking the condition, ensuring at least one print before any condition is evaluated.
+
+#### **`Que_02.cpp`**
+This C++ program demonstrates the use of a for loop to print numbers from 10 to 1 in descending order. The loop starts with an initial value of i = 10 and continues to iterate as long as i is greater than or equal to 1. In each iteration, the value of i is printed, and i is decremented by 1. This program highlights the usage of a for loop to handle a predefined range and control the iteration with a decreasing counter.
+
+#### **`Que_03.cpp`**
+This C++ program demonstrates the use of a do-while loop to print all even numbers from 1 to N. The user provides a number N, and the loop starts at i = 1. In each iteration, the program checks if i is even (i.e., i % 2 == 0) before printing it. The value of i is then incremented, and the loop continues until i exceeds N. This program highlights the combination of conditional statements and looping to selectively print even numbers within a given range.
+
+#### **`Que_04.cpp`**
+This C++ program demonstrates the use of a for loop to print the Fibonacci series up to N numbers. The user provides the number N, which determines how many terms of the Fibonacci sequence to display. The program initializes the first two terms as 1 and 0. In each iteration, the next term is calculated by adding the previous two terms (f + s), and then f and s are updated to move forward in the sequence. This program highlights the use of loops and variable updates to generate and display Fibonacci numbers.
+
+#### **`Que_05.cpp`**
+This C++ program demonstrates how to swap two values using a temporary variable. The user inputs two values, and the program swaps them. The value of the first variable is stored in a temporary variable (t), then the second variable's value is assigned to the first variable. Finally, the value in the temporary variable is assigned to the second variable. The program outputs the swapped values, showing how the contents of the two variables have been exchanged. This program highlights the use of temporary variables to perform the swap operation.
+
+---
+
 ## 💡 What You'll Learn:
 - **Basic Syntax & I/O Operations**: Understanding how C++ works and how to display/output data.
 - **Control Structures**: Mastering loops and understanding how to repeat operations efficiently.
