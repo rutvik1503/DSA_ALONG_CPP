@@ -42,7 +42,7 @@ int main()
 
     for ( i = 0 ; i < n ; i++ )
     {
-        cout << "Value at the B[" << i << "] = " << a[i] << endl;
+        cout << "Value at the B[" << i << "] = " << b[i] << endl;
     }
 
     cout << endl << "Here is the some of aray A & B in the array C" << endl;
