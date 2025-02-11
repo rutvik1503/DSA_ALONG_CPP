@@ -16,7 +16,7 @@ int main()
     
     do
     {        
-        cout << "Here is option for CRUD Operation..." << endl << endl;
+        cout << endl << "Here is option for CRUD Operation..." << endl << endl;
     
         cout << "1 : Create" << endl;
         cout << "2 : Read" << endl;
@@ -32,7 +32,7 @@ int main()
         switch ( opt )
         {
             case 1 : // For Create
-                cout << endl << "Please enter any 5 values in the array" << endl << endl;
+                cout << "Please enter any 5 values in the array" << endl << endl;
 
                 for (i = 0 ; i < n ; i++)
                 {
