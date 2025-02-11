@@ -31,7 +31,7 @@ int main()
 
         switch ( opt )
         {
-            case 1 :
+            case 1 : // For Create
                 cout << endl << "Please enter any 5 values in the array" << endl << endl;
 
                 for (i = 0 ; i < n ; i++)
@@ -42,7 +42,7 @@ int main()
 
                 break;
 
-            case 2 :
+            case 2 : // For read
                 if (a[0] == -1)
                 {
                     cout << "Please enter the values first." << endl << endl;
@@ -61,7 +61,7 @@ int main()
                     break ;
                 }                
 
-            case 3 :
+            case 3 : // For Update
                 if (a[0] == -1)
                 {
                     cout << "Please enter the values first." << endl << endl;
@@ -94,7 +94,7 @@ int main()
                 }
                 
 
-            case 4 :
+            case 4 : // For Delete
                 if (a[0] == -1)
                 {
                     cout << "Plese enter the values first." << endl << endl;
