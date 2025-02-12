@@ -96,15 +96,6 @@ This C++ program demonstrates the use of the ternary operator (? :) for decision
 
 ---
 
-## 📅 PROJECT DAY : Some Projects of c++
-
-### 📝 Files:
-
-#### **`Day_01_Project.cpp`**
-This C++ program demonstrates the use of nested switch statements to create a multilingual recharge menu system. The user selects a language (Gujarati, Hindi, or English) and is then given options to check available recharge plans or view active plans. If they choose to check recharge plans, another switch allows them to select a plan and confirm the recharge. The program handles invalid inputs with default messages. This example highlights user input handling, decision-making with switch, and structured program flow in C++.
-
----
-
 ## 📅 LAB WORK 01 : Some problem solving task
 
 ### 📝 Files:
@@ -144,6 +135,121 @@ This C++ program demonstrates the use of a for loop to print the Fibonacci serie
 
 #### **`Que_05.cpp`**
 This C++ program demonstrates how to swap two values using a temporary variable. The user inputs two values, and the program swaps them. The value of the first variable is stored in a temporary variable (t), then the second variable's value is assigned to the first variable. Finally, the value in the temporary variable is assigned to the second variable. The program outputs the swapped values, showing how the contents of the two variables have been exchanged. This program highlights the use of temporary variables to perform the swap operation.
+
+---
+
+## 📅 LAB WORK 03 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This file contains a C++ program that calculates and prints the sum of all numbers from 1 to N using a for loop. The program prompts the user to enter a value for N, then iterates through numbers from 1 to N, adding each to a sum variable. Finally, it displays the computed sum using cout. This program demonstrates basic loop control and arithmetic operations in C++.
+
+#### **`Que_02.cpp`**
+This file contains a C++ program that calculates and prints the factorial of a given number N using a for loop. The program prompts the user to enter a value for N, then iterates from 1 to N, multiplying each number to compute the factorial. Finally, it displays the calculated factorial using cout. This program demonstrates the use of loops and multiplication in C++.
+
+---
+
+## 📅 LAB WORK 04 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This file contains a C++ program that prints a number pattern in descending order. The program uses nested for loops to generate a pattern where each row displays numbers starting from the row number down to 1. The outer loop controls the number of rows (5 rows in this case), and the inner loop prints the descending numbers for each row.
+
+#### **`Que_02.cpp`**
+This file contains a C++ program that prints a descending number pattern. The program uses nested for loops to generate a pattern where each row starts from a descending number (from 5 to 1) and increases to 5. The outer loop controls the rows, and the inner loop prints the numbers for each row. 
+
+#### **`Que_03.cpp`**
+This file contains a C++ program that prints a number pattern where each row consists of the same number repeated. The program uses nested for loops to print a pattern where the first row starts with the number 5, the second row starts with 4, and so on, until the last row starts with 1. The outer loop controls the number of rows, and the inner loop prints the same number for each column in that row.
+
+#### **`Que_04.cpp`**
+This file contains a C++ program that prints a number pattern in ascending order. The program uses nested for loops to generate a pattern where the first row starts with 1 and goes up to 5, the second row starts with 2 and goes up to 5, and so on, until the last row starts with 5 and only prints 5. The outer loop controls the number of rows, and the inner loop prints numbers for each row starting from the current row number.
+
+#### **`Que_05.cpp`**
+This file contains a C++ program that prints a number pattern where each row contains the same number repeated, but the number decreases as the rows progress. The program uses nested for loops to generate the pattern where the first row consists of 1 repeated five times, the second row consists of 2 repeated four times, and so on, until the last row contains only the number 5. The outer loop controls the number of rows, and the inner loop prints the same number for each column in that row.
+
+#### **`Que_06.cpp`**
+This file contains a C++ program that prints a pattern of alternating 1s and 0s. The program uses nested for loops to generate a pattern where each row alternates between 1 and 0. The number of elements in each row decreases as the rows progress, starting with five elements in the first row and decreasing by one in each subsequent row. The pattern alternates starting with 1 in each row.
+
+#### **`Que_07.cpp`**
+This file contains a C++ program that prints a pattern of alternating As and Bs. The program uses nested for loops to generate a pattern where each row prints the letters A and B in an alternating manner. The number of elements in each row increases as the rows progress, starting with one element in the first row and increasing by one in each subsequent row. In each row, the program alternates between printing A for odd numbers and B for even numbers.
+
+#### **`Que_08.cpp`**
+This file contains a C++ program that prints a number pattern where the numbers increase sequentially. The program uses nested for loops to generate a pattern where each row contains an increasing count of numbers starting from 1. The number in each column increases sequentially across all rows. The outer loop controls the number of rows (5 rows in total), and the inner loop controls how many numbers are printed per row.
+
+---
+
+## 📅 LAB WORK 05 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This file contains a C++ program that prints a left half pyramid pattern of numbers. The program uses nested for loops to generate the pattern where each row consists of numbers in descending order, starting from the row number. The outer loop controls the number of rows, and the inner loops handle the spaces and the numbers to form the left-aligned pyramid shape.
+
+#### **`Que_02.cpp`**
+This file contains a C++ program that prints a left half pyramid pattern of numbers in reverse order. The program uses nested for loops to generate the pattern where each row contains numbers in ascending order, starting from the row number up to 5. The outer loop controls the number of rows, and the inner loops handle the spaces and numbers to form the left-aligned pyramid shape. 
+
+#### **`Que_03.cpp`**
+This file contains a C++ program that prints a left half pyramid pattern of the same number repeated in each row. The program uses nested for loops to generate the pattern where each row contains the same number, starting from 5 in the first row, and decreases with each subsequent row. The outer loop controls the number of rows, and the inner loops handle the spaces and the constant number printed in each row.
+
+#### **`Que_04.cpp`**
+This file contains a C++ program that prints an inverted left half pyramid pattern where the numbers alternate between 1 and 0 in each row. The program uses nested for loops to generate the pattern. The outer loop controls the number of rows, and the inner loops handle the spaces and alternating numbers. The pattern starts with 1 and alternates with 0 in each row, with the number of elements in each row decreasing as you move downward
+
+#### **`Que_05.cpp`**
+This file contains a C++ program that prints an inverted left half pyramid pattern with decreasing numbers. The program uses nested for loops to generate the pattern. The outer loop controls the rows, and the inner loops manage the spaces and the decreasing numbers. As you move down, the number of spaces increases while the numbers decrease in each row. The pattern starts from 5 and decreases by 1 in each step until the last row, resulting in a pattern.
+
+---
+
+## 📅 LAB WORK 06 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This C++ program allows the user to input the length of an array, then enter values for each element of the array. After collecting the input, the program prints the values along with their corresponding indices.
+
+#### **`Que_02.cpp`**
+This C++ program calculates the average of the values in a 1D array. It first prompts the user to input the length of the array, then collects values for each element. The program calculates the sum of the elements and computes the average by dividing the sum by the total number of elements.
+
+#### **`Que_03.cpp`**
+This C++ program performs the addition operation on two 1D arrays, with the condition that both arrays have the same size. It prompts the user to input values for both arrays, then adds the corresponding elements of the two arrays and stores the result in a third array. Finally, it displays the result of the addition operation.
+
+---
+
+## 📅 LAB WORK 07 : Some problem solving task
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This C++ program calculates the average of elements in a 2D array. The program prompts the user to enter the dimensions of the array (number of rows and columns) and the values of the array elements. It then computes the average of all the values in the array.
+
+#### **`Que_02.cpp`**
+This C++ program performs the addition operation of two 2D arrays and stores the result in a third array. The program ensures that both arrays have the same dimensions (i.e., the same number of rows and columns). It takes user input for the two 2D arrays, computes their sum element-wise, and outputs the result.
+
+#### **`Que_03.cpp`**
+This C++ program computes the sum of diagonal elements from a 2D array. The user is prompted to input the dimensions (rows and columns) of the array, as well as the values for each element. The program then calculates the sum of the diagonal elements and displays the result.
+
+#### **`Que_04.cpp`**
+This C++ program computes the sum of all boundary elements in a given 5x5 2D array. The program allows the user to input the values of a 5x5 matrix and then identifies the boundary elements (those on the outermost edges of the array). It also calculates and displays the sum of these boundary elements.
+
+---
+
+## 📅 PROJECT DAY : Some Projects of c++
+
+### 📝 Files:
+
+#### **`Day_01_Project.cpp`**
+This C++ program demonstrates the use of nested switch statements to create a multilingual recharge menu system. The user selects a language (Gujarati, Hindi, or English) and is then given options to check available recharge plans or view active plans. If they choose to check recharge plans, another switch allows them to select a plan and confirm the recharge. The program handles invalid inputs with default messages. This example highlights user input handling, decision-making with switch, and structured program flow in C++.
+
+#### **`CRUD_Operation_Project.cpp`**
+This C++ program implements a menu-driven system to perform CRUD (Create, Read, Update, Delete) operations on a 1D array of size 5. Users can:
+
+**Create** : Input values into the array.
+**Read** : View the current values stored in the array.
+**Update** : Modify a value at a specified index.
+**Delete** : Remove an element and shift the array.
+
+The program continues to display a menu for further operations until the user chooses to exit
 
 ---
 
