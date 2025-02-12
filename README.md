@@ -244,10 +244,10 @@ This C++ program demonstrates the use of nested switch statements to create a mu
 #### **`CRUD_Operation_Project.cpp`**
 This C++ program implements a menu-driven system to perform CRUD (Create, Read, Update, Delete) operations on a 1D array of size 5. Users can:
 
-**Create** : Input values into the array.
-**Read** : View the current values stored in the array.
-**Update** : Modify a value at a specified index.
-**Delete** : Remove an element and shift the array.
+- **Create** : Input values into the array.
+- **Read** : View the current values stored in the array.
+- **Update** : Modify a value at a specified index.
+- **Delete** : Remove an element and shift the array.
 
 The program continues to display a menu for further operations until the user chooses to exit
 
