@@ -15,8 +15,6 @@ int main()
 
     int a[rowsize][colsize];
 
-    int max = a[0][0];
-
     cout << endl << "Enter values in the array A..." << endl << endl;
 
     for (row = 0 ; row < rowsize ; row++)
@@ -40,6 +38,8 @@ int main()
     }
 
     cout << endl << "Largest number of array A : ";
+
+    int max = a[0][0];
 
     for (row = 0 ; row < rowsize ; row++)
     {
