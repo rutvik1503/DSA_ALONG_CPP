@@ -8,6 +8,8 @@ void tsrn(int a, int b)
 
 int main()
 {
+    cout << endl << "Take Something Return Nothing." << endl;
+
     int a, b;
 
     cout << endl << "A = ";
