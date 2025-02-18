@@ -36,17 +36,6 @@ void option()
     cout << "6 : Exit" << endl;
 }
 
-void input_()
-{
-    int a, b;
-
-    cout << endl << "Enter the value of A : ";
-    cin >> a;
-    
-    cout << "Enter the value of B : ";
-    cin >> b;
-}
-
 int main()
 {
     int n, a, b;
