@@ -1,6 +1,15 @@
 #include <iostream>
 using namespace std;
 
+int input(int &a, int &b)
+{
+    cout << endl << "Enter the value of A : ";
+    cin >> a;
+
+    cout << "Enter the value of B : ";
+    cin >> b;
+}
+
 int sum(int a, int b)
 {
     return a + b;
@@ -49,51 +58,31 @@ int main()
         switch (n)
         {
             case 1:
-                cout << endl << "Enter the value of A : ";
-                cin >> a;
-
-                cout << "Enter the value of B : ";
-                cin >> b;              
+                input(a, b);            
 
                 cout << endl << "A + B = " << sum(a, b) << endl << endl;
                 break;
 
             case 2:
-                cout << endl << "Enter the value of A : ";
-                cin >> a;
-    
-                cout << "Enter the value of B : ";
-                cin >> b;
+                input(a, b);
 
                 cout << endl << "A - B = " << sub(a, b) << endl << endl;
                 break;
 
             case 3:
-                cout << endl << "Enter the value of A : ";
-                cin >> a;
-    
-                cout << "Enter the value of B : ";
-                cin >> b;
+                input(a, b);
                 
                 cout << endl << "A * B = " << mul(a, b) << endl << endl;
                 break;
 
             case 4:
-                cout << endl << "Enter the value of A : ";
-                cin >> a;
-    
-                cout << "Enter the value of B : ";
-                cin >> b;
+                input(a, b);
                 
                 cout << endl << "A / B = " << divide(a, b) << endl << endl;
                 break;
 
             case 5:
-                cout << endl << "Enter the value of A : ";
-                cin >> a;
-    
-                cout << "Enter the value of B : ";
-                cin >> b;
+                input(a, b);
                 
                 cout << endl << "A % B = " << mod(a, b) << endl << endl;
                 break;
