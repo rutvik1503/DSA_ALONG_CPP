@@ -232,6 +232,16 @@ This C++ program computes the sum of diagonal elements from a 2D array. The user
 #### **`Que_04.cpp`**
 This C++ program computes the sum of all boundary elements in a given 5x5 2D array. The program allows the user to input the values of a 5x5 matrix and then identifies the boundary elements (those on the outermost edges of the array). It also calculates and displays the sum of these boundary elements.
 
+
+---
+
+## 📅 RUTVIK_ArrayProject : Some problem solving task of array
+
+### 📝 Files:
+
+#### **`Que_01.cpp`**
+This C++ program calculates the average of elements in a 2D array. The program prompts the user to enter the dimensions of the array (number of rows and columns) and the values of the array elements. It then computes the average of all the values in the array.
+
 ---
 
 ## 📅 PROJECT DAY : Some Projects of c++
