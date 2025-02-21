@@ -671,7 +671,7 @@ int main()
             break;
 
         case 17:
-            cout << "Program Ended...";
+            cout << endl << "Program Ended..." << endl << endl ;
             break;
 
         default:
