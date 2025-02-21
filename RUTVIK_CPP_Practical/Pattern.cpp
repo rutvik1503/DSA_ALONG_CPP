@@ -598,6 +598,8 @@ void pattern_16()
 int main()
 {
     int n;
+
+    cout << endl;
         
     do
     {
