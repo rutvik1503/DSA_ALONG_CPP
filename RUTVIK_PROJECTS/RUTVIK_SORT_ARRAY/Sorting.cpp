@@ -332,48 +332,42 @@ void devide_array_Desending(int arr[], int start, int end)
 
 int partition_Asending(int a[], int start, int end)
 {
-    int pivot = a[end];
-    int i = start - 1;
+    int pivot = a[start];
 
-    for (int j = start; j < end; j++)
+    int i = start + 1;
+
+    for (int j = start + 1 ; j <= end ; j++)
     {
         if (a[j] < pivot)
         {
+            swap(a[i], a[j]);
             i++;
-            int temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
         }
     }
 
-    int temp = a[i + 1];
-    a[i + 1] = a[end];
-    a[end] = temp;
-
-    return i + 1;
+    swap(a[start],a[i - 1]);
+    
+    return i - 1;
 }
 
 int partition_Desending(int a[], int start, int end)
 {
-    int pivot = a[end];
-    int i = start - 1;
+    int pivot = a[start];
 
-    for (int j = start; j < end; j++)
+    int i = start + 1;
+
+    for (int j = start + 1 ; j <= end ; j++)
     {
         if (a[j] > pivot)
         {
+            swap(a[i], a[j]);
             i++;
-            int temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
         }
     }
 
-    int temp = a[i + 1];
-    a[i + 1] = a[end];
-    a[end] = temp;
-
-    return i + 1;
+    swap(a[start],a[i - 1]);
+    
+    return i - 1;
 }
 
 void quick_sort_Asending(int a[], int start, int end)
